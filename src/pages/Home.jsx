@@ -1,9 +1,13 @@
-
+import Slider from "../components/Slider";
+import Values from "../components/Values";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div>
+      <Slider></Slider>
+      <Values></Values>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
